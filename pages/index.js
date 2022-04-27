@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+// import WebGLView from '../components/WebGLView'
 import Hero from '../components/Hero'
 import WhatDo from '../components/WhatDo'
 import Gallery from '../components/Gallery'
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      {/* <WebGLView /> */}
       <Hero />
       <WhatDo />
       <Gallery />
