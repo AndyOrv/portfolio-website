@@ -6,7 +6,10 @@ export default function WhatDo() {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+            <h1
+              className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
+              id="whatido"
+            >
               What I Do
             </h1>
             <div className="h-1 w-20 bg-blue-500 rounded"></div>
@@ -23,16 +26,17 @@ export default function WhatDo() {
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/720x400"
+                // src="https://dummyimage.com/720x400"
+                src="/Portfolio/Blunder Buster/BB-1.png"
                 alt="content"
                 width={720}
                 height={400}
               />
               <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                SUBTITLE
+                2D Side Scroller
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                TEXT
+                Blunder Buster
               </h2>
               <p className="leading-relaxed text-base">
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
@@ -44,16 +48,17 @@ export default function WhatDo() {
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/720x400"
+                // src="https://dummyimage.com/720x400"
+                src="/Portfolio/Marbles Game/SB-2.png"
                 alt="content"
                 width={720}
                 height={400}
               />
               <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                SUBTITLE
+                OpenGL/Custom Engine Game
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                TEXT
+                Marbles
               </h2>
               <p className="leading-relaxed text-base">
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
@@ -65,16 +70,17 @@ export default function WhatDo() {
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/720x400"
+                // src="https://dummyimage.com/720x400"
+                src="/Portfolio/Signing of the Dead/SOTD-1.PNG"
                 alt="content"
                 width={720}
                 height={400}
               />
               <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                SUBTITLE
+                Motion Detection Game
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                TEXT
+                Signing of the Dead
               </h2>
               <p className="leading-relaxed text-base">
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
@@ -86,16 +92,17 @@ export default function WhatDo() {
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/720x400"
+                // src="https://dummyimage.com/720x400"
+                src="/Portfolio/Tropical Island/Trop-3.png"
                 alt="content"
                 width={720}
                 height={400}
               />
               <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                SUBTITLE
+                OpenGL Render Tech Demo
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                TEXT
+                Tropical Island
               </h2>
               <p className="leading-relaxed text-base">
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery

@@ -1,6 +1,7 @@
 import react from 'react'
 import Link from 'next/link'
 import { PlayIcon } from '@heroicons/react/solid'
+import { useSpring, animated } from 'react-spring'
 
 import Header from '../components/Header'
 import WebGLView from '../components/WebGLView'
@@ -11,10 +12,19 @@ import Blog from '../components/Blog'
 import Footer from '../components/Footer'
 
 export default function Home() {
+  const props = useSpring({
+    to: { opacity: 1 },
+    from: { opacity: 0 },
+    delay: 100
+  })
   return (
-    <>
+    <animated.div style={props}>
       <Header />
-      <div className="m-auto mt-4 w-1/2">
+
+      <Hero />
+      <WhatDo />
+
+      <div className="m-auto w-1/4">
         <Link className="m-auto h-12 w-2" href="/blunder" passHref>
           <button
             type="button"
@@ -25,12 +35,9 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* <WebGLView /> */}
-      <Hero />
-      <WhatDo />
       <Gallery />
       <Blog />
       <Footer />
-    </>
+    </animated.div>
   )
 }

@@ -14,7 +14,7 @@ export default function Footer() {
             />
             <p className="font-bold my-8 ml-4">Officia enim CV</p>
           </div>
-          <div className="flex my-2">
+          {/* <div className="flex my-2">
             <Image
               alt="gallery"
               className="w-full h-full object-cover object-center block"
@@ -23,7 +23,7 @@ export default function Footer() {
               height={20}
             />
             <p className="font-bold py-8 pl-4">Incididunt et Portfolio PDF</p>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
@@ -33,16 +33,30 @@ export default function Footer() {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Home</a>
+                <a href="#about" className="text-gray-600 hover:text-gray-800">
+                  Home
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">What I Do</a>
+                <a
+                  href="#whatido"
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  What I Do
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Portfolio</a>
+                <a
+                  href="#portfolio"
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Portfolio
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Skills</a>
+                <a href="#skills" className="text-gray-600 hover:text-gray-800">
+                  Skills
+                </a>
               </li>
             </nav>
           </div>

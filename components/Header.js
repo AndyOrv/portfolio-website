@@ -11,14 +11,34 @@ export default function Header() {
           passHref
         >
           <span span className="text-xl">
-            Logo Goes Here
+            Andrew Orvis
           </span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900">About</a>
-          <a className="mr-5 hover:text-gray-900">What I Do</a>
-          <a className="mr-5 hover:text-gray-900">Portfolio</a>
-          <a className="mr-5 hover:text-gray-900">Lets Talk</a>
+          <a
+            className="mr-5 hover:text-gray-900 hover:animate-pulse"
+            href="#about"
+          >
+            About
+          </a>
+          <a
+            className="mr-5 hover:text-gray-900 hover:animate-pulse"
+            href="#whatido"
+          >
+            What I Do
+          </a>
+          <a
+            className="mr-5 hover:text-gray-900 hover:animate-pulse"
+            href="#portfolio"
+          >
+            Portfolio
+          </a>
+          <a
+            className="mr-5 hover:text-gray-900 hover:animate-pulse"
+            href="#skills"
+          >
+            Skills
+          </a>
         </nav>
       </div>
     </header>
