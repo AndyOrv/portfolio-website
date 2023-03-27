@@ -1,4 +1,4 @@
-# A website :nerd:
+# A website Abandoned project
 
 ## Getting Started
 
